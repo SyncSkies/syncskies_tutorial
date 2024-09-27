@@ -6,7 +6,7 @@ Robot simulation is an essential tool in every roboticist's toolbox. A well-desi
 
 for more infromation on gazebo checkout http://gazebosim.org/
 
-## Install Gazebo [***18.04-20.04***]
+## Install Gazebo [***20.04***]
 
 Setup your computer to accept software from http://packages.osrfoundation.org:
 ```

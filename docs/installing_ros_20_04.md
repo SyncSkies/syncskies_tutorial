@@ -68,7 +68,7 @@ Our repository should now be copied to `~/catkin_ws/src/iq_sim/` (don't run this
 
 run the following to tell gazebo where to look for the iq models 
 ```
-echo "GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/sys_g/models" >> ~/.bashrc
+echo "GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/sys_s/models" >> ~/.bashrc
 ```
 
 ## 5. Build instructions

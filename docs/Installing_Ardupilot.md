@@ -1,6 +1,4 @@
-# Installing Ardupilot and MAVProxy
-
-### Video tutorial at https://youtu.be/wlkoq65mM2A
+# Installing Ardupilot and MAVProxy Ubuntu 20.04
 
 ## Clone ArduPilot
 
@@ -10,38 +8,27 @@ cd ~
 sudo apt install git
 git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
-git checkout Copter-3.6
-git submodule update --init --recursive
 ```
 
 ## Install dependencies:
 ```
-sudo apt install python-matplotlib python-serial python-wxgtk3.0 python-wxtools python-lxml python-scipy python-opencv ccache gawk python-pip python-pexpect
+cd ardupilot
+Tools/environment_install/install-prereqs-ubuntu.sh -y
 ```
 
-## Use pip (Python package installer) to install mavproxy:
+reload profile
 ```
-sudo pip install future pymavlink MAVProxy
+. ~/.profile
 ```
-
-MAVProxy is a fully-functioning GCS for UAV’s. The intent is for a minimalist, portable and extendable GCS for any UAV supporting the MAVLink protocol (such as one using ArduPilot). For more information check out http://ardupilot.github.io/MAVProxy/html/index.html
-
-Open `~/.bashrc` for editing:
+## If the next step "git submodule update" fails
 ```
-gedit ~/.bashrc
+git config --global url.https://.insteadOf git://
 ```
 
-Add these lines to end of `~/.bashrc` (the file open in the text editor):
+## Checkout Latest Copter Build
 ```
-export PATH=$PATH:$HOME/ardupilot/Tools/autotest
-export PATH=/usr/lib/ccache:$PATH
-```
-
-Save and close the text editor.
-
-Reload `~/.bashrc`:
-```
-. ~/.bashrc
+git checkout Copter-4.0.4
+git submodule update --init --recursive
 ```
 
 Run SITL (Software In The Loop) once to set params:

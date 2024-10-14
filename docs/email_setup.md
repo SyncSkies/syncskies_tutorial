@@ -1,20 +1,30 @@
 # Email Setup in Microsoft Outlook
 
-This guide will help you configure your Hetzner email to work with Microsoft Outlook.
+This guide will help you configure your SyncSkies email to work with Microsoft Outlook.
 
 ## Prerequisites
 
-- You have a Hetzner email account.
+- You have a SyncSkies email account.
+- You have logged in to SyncSkies Konsole to change your email password if necessary.
 - You have Microsoft Outlook installed on your computer.
 
 ## Step-by-Step Setup
+
+Before proceeding with the setup, follow these steps:
+
+1. **Login to SyncSkies Webmail**
+   - Go to [https://webmail.your-server.de/login.php](https://webmail.your-server.de/login.php).
+   - Use the given username and password to log in.
+   - Change your password to a secure one of your choice.
+
+2. **Login to Outlook**
 
 1. **Open Outlook**
    - Launch Microsoft Outlook on your computer.
 
 2. **Add Account**
    - Go to **File** > **Add Account**.
-   - Enter your Hetzner email address and click **Connect**.
+   - Enter your SyncSkies email address and click **Connect**.
 
 3. **Choose Account Type**
    - Choose **IMAP** or **POP**.
@@ -53,4 +63,4 @@ This guide will help you configure your Hetzner email to work with Microsoft Out
 ## Notes
 
 - IMAP keeps messages in sync across all devices, while POP downloads them to one device.
-- For further assistance, check Hetzner's email documentation or contact their support.
+- For further assistance, check SyncSkies's email documentation or contact their support.

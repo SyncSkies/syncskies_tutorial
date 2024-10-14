@@ -6,4 +6,4 @@
 
 3.[Installing ROS and MAVROS](docs/installing_ros_20_04.md)
 
-3.[Email Setup](docs/email_setup.md)
+4.[Email Setup](docs/email_setup.md)

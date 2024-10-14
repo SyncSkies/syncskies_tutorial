@@ -17,7 +17,7 @@ Before proceeding with the setup, follow these steps:
    - Use the given username and password to log in.
    - Change your password to a secure one of your choice.
 
-2. **Login to Outlook**
+
 
  1. **Open Outlook**
    - Launch Microsoft Outlook on your computer.

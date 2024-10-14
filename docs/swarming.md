@@ -8,7 +8,7 @@ This tutorial shows you how to model and control a swarming using ardupilot and 
 
 add the models folder in the sys_s repo to the gazebo models path
 ```
-echo "export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/iq_sim/models" >> ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/sys_s/models" >> ~/.bashrc
 ```
 
 

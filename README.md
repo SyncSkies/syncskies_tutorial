@@ -5,3 +5,5 @@
 2.[Installing Gazebo and ArduPilot Plugin](docs/installing_gazebo_arduplugin.md)
 
 3.[Installing ROS and MAVROS](docs/installing_ros_20_04.md)
+
+3.[Email Setup](docs/email_setup.md)

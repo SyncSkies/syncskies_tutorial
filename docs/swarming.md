@@ -51,7 +51,7 @@ drone4
 ect...
 
 
-add the drone to `runway.world`
+add the drone to `multi_drone.world`
 ```
     <model name="drone2">
     <pose>10 0 0 0 0 0</pose>
@@ -155,13 +155,4 @@ sim_vehicle.py -v ArduCopter -f gazebo-drone2 --console -I1 --out=tcpin:0.0.0.0:
 
 - note 0.0.0.0 allows any device on out local network to connect to the ardupilot instance 
 
-### setup qgroundcontrol to accept multiple vehicles
-
-navigate to the settings tab and click on `Comm Links`. then find the 
-
-fill in each as bellow for the vehicle's unique TCP ports
-
-![qg](imgs/qg_comms.png)
-
-- note you can connect from a different device on the same network, by entering the ip address of the host computer in the host address box
 

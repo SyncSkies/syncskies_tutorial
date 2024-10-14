@@ -7,3 +7,5 @@
 3.[Installing ROS and MAVROS](docs/installing_ros_20_04.md)
 
 4.[Email Setup](docs/email_setup.md)
+
+5.[Swarm setup](docs/swarming.md)

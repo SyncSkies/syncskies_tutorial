@@ -19,18 +19,18 @@ Before proceeding with the setup, follow these steps:
 
 2. **Login to Outlook**
 
-1. **Open Outlook**
+ 1. **Open Outlook**
    - Launch Microsoft Outlook on your computer.
 
-2. **Add Account**
+ 2. **Add Account**
    - Go to **File** > **Add Account**.
    - Enter your SyncSkies email address and click **Connect**.
 
-3. **Choose Account Type**
+ 3. **Choose Account Type**
    - Choose **IMAP** or **POP**.
    - **IMAP** is recommended to keep emails synchronized across all devices.
 
-4. **Incoming Server Settings**
+ 4. **Incoming Server Settings**
    - **IMAP**:
      - Server: `mail.yourdomain.com` (replace `yourdomain.com` with your actual domain)
      - Port: `993`
@@ -40,17 +40,17 @@ Before proceeding with the setup, follow these steps:
      - Port: `995`
      - Encryption: `SSL/TLS`
 
-5. **Outgoing Mail Server (SMTP) Settings**
+ 5. **Outgoing Mail Server (SMTP) Settings**
    - Server: `mail.yourdomain.com`
    - Port: `465` (or `587`)
    - Encryption: `SSL/TLS` or `STARTTLS`
 
-6. **Authentication**
+ 6. **Authentication**
    - Username: Your full email address.
    - Password: Your email password.
    - Make sure **Require logon using Secure Password Authentication (SPA)** is unchecked.
 
-7. **Finish Setup**
+ 7. **Finish Setup**
    - Click **Next**.
    - Outlook will test the account settings. If successful, click **Finish**.
 

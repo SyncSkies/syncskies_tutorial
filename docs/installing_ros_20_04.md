@@ -64,9 +64,9 @@ sudo ~/catkin_ws/src/mavros/mavros/scripts/install_geographiclib_datasets.sh
 cd ~/catkin_ws/src
 git clone https://github.com/SyncSkies/sys_g.git
 ```
-Our repository should now be copied to `~/catkin_ws/src/iq_sim/` (don't run this line. This is just saying that if you browse in the file manager, you will see those folders).
+Our repository should now be copied to `~/catkin_ws/src/sys_s/` (don't run this line. This is just saying that if you browse in the file manager, you will see those folders).
 
-run the following to tell gazebo where to look for the iq models 
+run the following to tell gazebo where to look for the syncskies models 
 ```
 echo "GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/sys_s/models" >> ~/.bashrc
 ```

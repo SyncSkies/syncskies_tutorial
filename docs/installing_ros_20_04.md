@@ -62,7 +62,7 @@ sudo ~/catkin_ws/src/mavros/mavros/scripts/install_geographiclib_datasets.sh
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/SyncSkies/sys_g.git
+git clone https://github.com/SyncSkies/sys_s.git
 ```
 Our repository should now be copied to `~/catkin_ws/src/sys_s/` (don't run this line. This is just saying that if you browse in the file manager, you will see those folders).
 
